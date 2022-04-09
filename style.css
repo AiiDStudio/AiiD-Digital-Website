@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Oswald:wght@500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ********************************** */
+
+/* header */
+
+
+li, a, button{
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo{
+  cursor: pointer;
+}
+.nav__links{
+  list-style: none;
+}
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #0088a9;
+  transform: scale(1.1);
+}
+
+.headerbutton{
+  padding: 9px 25px;
+  background-color:#0088a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+button:hover{
+  background-color: #363636;
+  transform: scale(1.1);
+}
+
+/* end header */
+
+/* ********************************** */
+
+/* hero */
+
+    /* hero text */
+  .hero{
+  display: flex;
+  background-image: url(/aiid-digital-studio/IMG/BG.png) ;
+  align-items: center;
+  min-height: 120vh;
+  margin-top: -200px;
+  } 
+
+  .hero_h1{
+  text-decoration: none;
+  background: none;
+  font-family: "oswald";
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+  }
+
+  p{
+  font-family: "roboto";
+  font-size: 20px;
+  text-transform: none;
+  line-height: 20px;
+  padding-top: 20px;
+  font-weight: 300;
+  }
+
+
+  .herobutton{
+    border: none;
+    color: #0088a9;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding-top: 20px;
+  }
+  .herobutton:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+  }
+    /* end hero text */
+
+    /* ********************************** */
+
+    /* hero img */
+.heroimg{
+  width: 700px;
+  padding-left: 100px;
+}
+/* end hero */
+
+    /* ********************************** */
+
+/* section 1 intro */
+
+.intro_left{
+  width: 50%;
+  padding-left: 250px;
+  background-color: white;
+  min-height: 100vh;
+} 
+.web_price{
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #0088a9;
+}
+.text_section1{
+  text-decoration: none;
+  background: none;
+  font-family: "oswald";
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+}
